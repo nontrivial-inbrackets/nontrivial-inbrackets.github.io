@@ -60,13 +60,47 @@
     </section>
 
     <section class="section" id="tools-list"><h2>tools</h2></section>
+
     <section class="section" id="playbooks-list"><h2>playbooks</h2></section>
+
     <section class="section" id="guides-list"><h2>guides</h2></section>
-    <section class="section" id="research-list"><h2>research</h2></section>
+
+    <!-- Research section with a real placeholder note + Nutshell expansion -->
+    <section class="section" id="research-list">
+      <h2>research</h2>
+
+      <article class="card">
+        <div class="kicker">research note</div>
+        <div class="title">interfaces as cognitive systems</div>
+
+        <div class="desc">
+          I’m exploring how interfaces can reveal context on demand —
+          <a href="#cognitive-systems">:cognitive systems</a> instead of static pages.
+        </div>
+
+        <div class="meta">themes: progressive disclosure · adaptive depth · interface-as-thinking</div>
+
+        <h3 id="cognitive-systems">cognitive systems</h3>
+        <p class="muted">
+          A cognitive system doesn’t just display information—it structures attention.
+          It lets the reader choose depth without leaving the page.
+        </p>
+      </article>
+    </section>
   </main>
 
   <footer class="foot">
     <div class="wrap"><span class="muted">© [nontrivial]</span></div>
   </footer>
+
+  <!-- Nutshell -->
+  <script src="nutshell.js"></script>
+  <script>
+    Nutshell.setOptions({
+      startOnLoad: true,
+      lang: "en",
+      dontEmbedHeadings: false
+    });
+  </script>
 </body>
 </html>
